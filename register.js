@@ -42,9 +42,9 @@ submitRegister.addEventListener("submit", e => {
         users.push(user);
         console.log(users);
         saveLS();
+        window.location.replace("/login.html")
     }
     function saveLS(){
         localStorage.setItem("users", JSON.stringify(users));
     }
 });
-
