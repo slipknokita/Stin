@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STIN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body class="azulOscuro">
+    <div class="container d-flex row mx-auto mt-5">
+        <div class="container col-12 col-lg-6 mt-5">
+            <h2>Crean cuenta de Usuario</h2>
+            <form action="">
+                <div class="form-group mt-3">
+                    <div class="mt-3">
+                        <label for="user">Nombre de Usuario</label>
+                        <input type="text" name="user" class="form-control" placeholder="Usuario">
+                        <small class="form-text text-muted">Tu nombre de usuario tiene que tener un minimo 8 caractares. No puedes utilas caracteres especiales.</small>
+                    </div>
+                    <div class="mt-3">
+                        <label for="pass">Contraseña</label>
+                        <input type="password" name="pass" class="form-control" placeholder="Contraseña">
+                        <small class="form-text text-muted">Tu contraseña tiene que tener un minimo de 8 caracteres.</small>
+                    </div>
+                    <div class="mt-3">
+                        <label for="pass">Confirme contraseña</label>
+                        <input type="password" name="pass" class="form-control" placeholder="Contraseña">
+                        <small class="form-text text-muted">Coloque su contraseña nuevamente.</small>
+                    </div>
+                    <div class="mt-3">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" name="email" class="form-control" placeholder="ejemplo@email.com">
+                        <small class="form-text text-muted">Tu dirección de correo electrónico se utiliza para confirmar las compras y ayudarte a administrar el acceso a tu cuenta de STIN.</small>
+                    </div>
+                    <div class="mt-3">
+                        <label for="email">Confirme correo electrónico</label>
+                        <input type="email" name="email" class="form-control" placeholder="ejemplo@email.com">
+                        <small class="form-text text-muted">Coloque su correo electronico nuevamente.</small>
+                    </div>
+                    <label for="contry" class="mt-4">País de residencia</label>
+                    <select name="" id="" class="text-black">
+                        <option value="">Argentina</option>
+                        <option value="">Uruguay</option>
+                        <option value="">Chile</option>
+                        <option value="">Peru</option>
+                        <option value="">Paraguay</option>
+                        <option value="">Colombia</option>
+                        <option value="">Ecuador</option>
+                        <option value="">Bolivia</option>
+                    </select><br>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn mt-4 text-light">Confirmar registro</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="container col-12 col-lg-6 mt-5">
+            <h2>Conoce nuestras ventajas</h2>
+            <ul>
+                <li>Compra y descarga juegos completos</li>
+                <li>Únete a la Comunidad Steam</li>
+                <li>Chatea con tus amigos mientras juegas</li>
+                <li>Juega en cualquier plataforma compatible</li>
+                <li>Recibe actualizaciones automáticas de juegos y ¡mucho más!</li>
+            </ul>
+            <p class="text-center">Sistemas operativos compatibles Windows 7, 8, 8.1, 10 o posterior. Intel Mac, OS X versión 10.11 o posterior Ubuntu Linux (versión más reciente). Conexión a Internet (se recomienda banda ancha)</p>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
