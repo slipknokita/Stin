@@ -1,23 +1,30 @@
 let form = document.getElementById("form");
 let body = document.getElementById("body");
+let users = JSON.parse(localStorage.getItem("users"));
 
-
+console.log(users)
 form.addEventListener("submit", login =>{
-    let userName = document.getElementById("userName").value;
-    let userPass = document.getElementById("userPass").value;
     login.preventDefault();
-    if (userName != "" && userPass != ""){
-       redirec();
-    } else {
+    let userLogin = document.getElementById("userName").value;
+    let userPass = document.getElementById("userPass").value;
+    function veri (){
+        for (i= 0; i < users.length; i++){
+            if (userLogin == users[i].userName && userPass == users[i].password){
+                redirec();
+            }
+        }
+    }
+    veri();
+    if (veri() != true){
         let error = document.createElement("p");
-        error.innerText = "Todos los campos son obligatorios";
+        error.innerText = "Nombre de usuario y/o contraseña erroneo.";
         document.getElementById("error").appendChild(error);
         setTimeout(errorMs, 2000);
         function errorMs(){
             document.getElementById("error").removeChild(error);
-        }
+        } 
     }
-})
+});
 function redirec(){
     body.innerHTML = `
         <html>
@@ -31,5 +38,5 @@ function redirec(){
             </div>
         </body>
         </html>
-       `
+    `
 }
