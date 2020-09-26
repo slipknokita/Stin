@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STIN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body class="azulOscuro">
+    <div class="container d-flex row mx-auto mt-5">
+        <div class="container col-12 col-lg-6 mt-5">
+            <h2>Crean cuenta de Usuario</h2>
+            <form action="" id="form">
+                <div class="form-group mt-3">
+                    <div class="mt-3">
+                        <label for="user">Nombre de Usuario</label>
+                        <input type="text" name="user" class="form-control" id="newUser" placeholder="Usuario" required minlength="4" maxlength="8">
+                        <small class="form-text text-muted">Tu nombre de usuario tiene que tener un minimo 4 caractares. No puedes utilas caracteres especiales.</small>
+                    </div>
+                    <div class="mt-3">
+                        <label for="pass">Contraseña</label>
+                        <input type="password" name="pass" class="form-control" id="newPass" placeholder="Contraseña" required minlength="8" maxlength="16">
+                        <small class="form-text text-muted">Tu contraseña tiene que tener un minimo de 8 caracteres.</small>
+                    </div>
+                    <div class="mt-3">
+                        <label for="pass">Confirme contraseña</label>
+                        <input type="password" name="pass" class="form-control" id="newPassV" placeholder="Contraseña" required minlength="8" maxlength="16">
+                        <small class="form-text text-muted">Coloque su contraseña nuevamente.</small>
+                    </div>
+                    <div class="mt-3">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" name="email" class="form-control" id="newEmail" placeholder="ejemplo@email.com" required>
+                        <small class="form-text text-muted">Tu dirección de correo electrónico se utiliza para confirmar las compras y ayudarte a administrar el acceso a tu cuenta de STIN.</small>
+                    </div>
+                    <div class="mt-3">
+                        <label for="email">Confirme correo electrónico</label>
+                        <input type="email" name="email" class="form-control" id="newEmailV" placeholder="ejemplo@email.com" required>
+                        <small class="form-text text-muted">Coloque su correo electronico nuevamente.</small>
+                    </div>
+                    <label for="contry" class="mt-4">País de residencia</label>
+                    <select name="contry" id="contry" class="text-black" value="" required>
+                        <option value="AR">Argentina</option>
+                        <option value="UR">Uruguay</option>
+                        <option value="CH">Chile</option>
+                        <option value="P">Peru</option>
+                        <option value="PR">Paraguay</option>
+                        <option value="CO">Colombia</option>
+                        <option value="E">Ecuador</option>
+                        <option value="B">Bolivia</option>
+                    </select><br>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn mt-4 text-light" id="submit">Confirmar registro</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="container col-12 col-lg-6 mt-5">
+            <h2>Conoce nuestras ventajas</h2>
+            <ul>
+                <li>Compra y descarga juegos completos</li>
+                <li>Únete a la Comunidad Steam</li>
+                <li>Chatea con tus amigos mientras juegas</li>
+                <li>Juega en cualquier plataforma compatible</li>
+                <li>Recibe actualizaciones automáticas de juegos y ¡mucho más!</li>
+            </ul>
+            <p class="text-center">Sistemas operativos compatibles Windows 7, 8, 8.1, 10 o posterior. Intel Mac, OS X versión 10.11 o posterior Ubuntu Linux (versión más reciente). Conexión a Internet (se recomienda banda ancha)</p>
+        </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>
