@@ -287,42 +287,7 @@
       "imgSource": "/img/A8.jpg",
       "publicado": "TRUE",
       "destacado": "no"
-    },
-    {
-      "name": "FALSETFT",
-      "category": "ACCION",
-      "publicado": "TRUE",
-      "id": 33
-    },
-    {
-      "name": "GTA",
-      "category": "ACCION",
-      "publicado": "FALSE",
-      "id": 34
-    },
-    {
-      "name": "GTA",
-      "category": "ACCION",
-      "publicado": "FALSE",
-      "id": 35
-    },
-    {
-      "name": "FALSETFT",
-      "category": "TERROR",
-      "publicado": "FALSE",
-      "id": 36
-    },
-    {
-      "name": "qqqqq",
-      "category": "TERROR",
-      "publicado": "TRUE",
-      "id": 37
-    },
-    {
-      "name": "FALSETFT",
-      "category": "ACCION",
-      "publicado": "FALSE",
-      "id": 38
     }
+    
   ]
 }
