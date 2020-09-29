@@ -1,0 +1,59 @@
+a {
+    text-decoration: none;
+}
+.azulOscuro {
+    background:linear-gradient(90deg, #1e2460, #094293);
+}
+.violetaOscuro {
+    
+    background:linear-gradient(90deg, #1e2460, #38338F);
+}
+* {
+    color: #f8f9fa;
+}
+.btn {
+    background-color: #7040D4;
+}
+.cajas {
+    margin:10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.btnSuccess {
+    background-color: #28a745;
+}
+input {
+    color: black;
+}
+option {
+    color:black;
+}
+select {
+    color: black;
+}
+
+caption{
+    caption-side: top;
+}
+
+table{
+   
+    border-collapse: collapse ;
+}
+
+th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+h1,h2 {
+    text-align: center;
+}    
+
+.modal{
+    margin-left: 700px;
+    margin-right: 200px;
+    width: 700px;
+    height: 700px;
+}

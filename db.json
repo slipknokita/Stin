@@ -1,0 +1,293 @@
+{
+  "Games": [
+    {
+      "id": 1,
+      "name": "noleague",
+      "style": "single",
+      "category": "Terror",
+      "imgSource": "/img/T1.jpg",
+      "publicado": "TRUE",
+      "destacado": "si"
+    },
+    {
+      "id": 2,
+      "name": "nowarcraft",
+      "style": "multi",
+      "category": "Fantasy",
+      "imgSource": "/img/F1.jpg",
+      "publicado": "TRUE",
+      "destacado": "si"
+    },
+    {
+      "id": 3,
+      "name": "falsetft",
+      "style": "single",
+      "category": "Shooter",
+      "imgSource": "/img/S1.jpg",
+      "publicado": "TRUE",
+      "destacado": "no"
+    },
+    {
+      "id": 4,
+      "name": "ajedrez",
+      "style": "multi",
+      "category": "Accion",
+      "imgSource": "/img/A1.jpg",
+      "publicado": "TRUE",
+      "destacado": "no"
+    },
+    {
+      "id": 5,
+      "name": "damas",
+      "style": "single",
+      "category": "Terror",
+      "imgSource": "/img/T2.jpg",
+      "publicado": "TRUE",
+      "destacado": "si"
+    },
+    {
+      "id": 6,
+      "name": "ludo",
+      "style": "multi",
+      "category": "Fantasy",
+      "imgSource": "/img/F2.jpg",
+      "publicado": "TRUE",
+      "destacado": "si"
+    },
+    {
+      "id": 7,
+      "name": "beach",
+      "style": "single",
+      "category": "Shooter",
+      "imgSource": "/img/S2.jpg",
+      "publicado": "TRUE",
+      "destacado": "no"
+    },
+    {
+      "id": 8,
+      "name": "lump",
+      "style": "multi",
+      "category": "Accion",
+      "imgSource": "/img/A2.jpg",
+      "publicado": "TRUE",
+      "destacado": "no"
+    },
+    {
+      "id": 9,
+      "name": "umpa",
+      "style": "single",
+      "category": "Terror",
+      "imgSource": "/img/T3.jpg",
+      "publicado": "TRUE",
+      "destacado": "si"
+    },
+    {
+      "id": 10,
+      "name": "lompa",
+      "style": "multi",
+      "category": "Fantasy",
+      "imgSource": "/img/F3.jpg",
+      "publicado": "TRUE",
+      "destacado": "si"
+    },
+    {
+      "id": 11,
+      "name": "daikiri",
+      "style": "single",
+      "category": "Shooter",
+      "imgSource": "/img/S3.jpg",
+      "publicado": "TRUE",
+      "destacado": "no"
+    },
+    {
+      "id": 12,
+      "name": "cerveza",
+      "style": "multi",
+      "category": "Accion",
+      "imgSource": "/img/A3.jpg",
+      "publicado": "TRUE",
+      "destacado": "no"
+    },
+    {
+      "id": 13,
+      "name": "vodka",
+      "style": "single",
+      "category": "Terror",
+      "imgSource": "/img/T4.jpg",
+      "publicado": "TRUE",
+      "destacado": "si"
+    },
+    {
+      "id": 14,
+      "name": "fernet",
+      "style": "multi",
+      "category": "Fantasy",
+      "imgSource": "/img/F4.jpg",
+      "publicado": "TRUE",
+      "destacado": "si"
+    },
+    {
+      "id": 15,
+      "name": "birra",
+      "style": "single",
+      "category": "Shooter",
+      "imgSource": "/img/S4.jpg",
+      "publicado": "FALSE",
+      "destacado": "no"
+    },
+    {
+      "id": 16,
+      "name": "mariobros",
+      "style": "multi",
+      "category": "Accion",
+      "imgSource": "/img/A4.jpg",
+      "publicado": "FALSE",
+      "destacado": "no"
+    },
+    {
+      "id": 17,
+      "name": "luigi",
+      "style": "single",
+      "category": "Terror",
+      "imgSource": "/img/T5.jpg",
+      "publicado": "FALSE",
+      "destacado": "si"
+    },
+    {
+      "id": 18,
+      "name": "zelda",
+      "style": "multi",
+      "category": "Fantasy",
+      "imgSource": "/img/F5.jpg",
+      "publicado": "FALSE",
+      "destacado": "si"
+    },
+    {
+      "id": 19,
+      "name": "nintendo",
+      "style": "single",
+      "category": "Shooter",
+      "imgSource": "/img/S5.jpg",
+      "publicado": "FALSE",
+      "destacado": "no"
+    },
+    {
+      "id": 20,
+      "name": "jurassicpark",
+      "style": "multi",
+      "category": "Accion",
+      "imgSource": "/img/A5.jpg",
+      "publicado": "FALSE",
+      "destacado": "no"
+    },
+    {
+      "id": 21,
+      "name": "autitos",
+      "style": "single",
+      "category": "Terror",
+      "imgSource": "/img/T6.jpg",
+      "publicado": "FALSE",
+      "destacado": "si"
+    },
+    {
+      "id": 22,
+      "name": "cop",
+      "style": "multi",
+      "category": "Fantasy",
+      "imgSource": "/img/F6.jpg",
+      "publicado": "FALSE",
+      "destacado": "si"
+    },
+    {
+      "id": 23,
+      "name": "thieves",
+      "style": "single",
+      "category": "Shooter",
+      "imgSource": "/img/S6.jpg",
+      "publicado": "FALSE",
+      "destacado": "no"
+    },
+    {
+      "id": 24,
+      "name": "galaxy",
+      "style": "multi",
+      "category": "Accion",
+      "imgSource": "/img/A6.jpg",
+      "publicado": "FALSE",
+      "destacado": "no"
+    },
+    {
+      "id": 25,
+      "name": "atomicrops",
+      "style": "single",
+      "category": "Terror",
+      "imgSource": "/img/T7.jpg",
+      "publicado": "FALSE",
+      "destacado": "si"
+    },
+    {
+      "id": 26,
+      "name": "metro",
+      "style": "multi",
+      "category": "Fantasy",
+      "imgSource": "/img/F7.jpg",
+      "publicado": "FALSE",
+      "destacado": "si"
+    },
+    {
+      "id": 27,
+      "name": "exodus",
+      "style": "single",
+      "category": "Shooter",
+      "imgSource": "/img/S7.jpg",
+      "publicado": "FALSE",
+      "destacado": "no"
+    },
+    {
+      "id": 28,
+      "name": "destiny",
+      "style": "multi",
+      "category": "Accion",
+      "imgSource": "/img/A7.jpg",
+      "publicado": "FALSE",
+      "destacado": "no"
+    },
+    {
+      "id": 29,
+      "name": "infinity",
+      "style": "single",
+      "category": "Terror",
+      "imgSource": "/img/T8.jpg",
+      "publicado": "TRUE",
+      "destacado": "si"
+    },
+    {
+      "id": 30,
+      "name": "dangerzone",
+      "style": "multi",
+      "category": "Fantasy",
+      "imgSource": "/img/F8.jpg",
+      "publicado": "TRUE",
+      "destacado": "si"
+    },
+    {
+      "id": 31,
+      "name": "dayoflights",
+      "style": "single",
+      "category": "Shooter",
+      "imgSource": "/img/S8.jpg",
+      "publicado": "TRUE",
+      "destacado": "no"
+    },
+    {
+      "id": 32,
+      "name": "fraky",
+      "style": "multi",
+      "category": "Accion",
+      "imgSource": "/img/A8.jpg",
+      "publicado": "TRUE",
+      "destacado": "no"
+    }
+    
+  ]
+}
