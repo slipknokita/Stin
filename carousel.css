@@ -2,6 +2,14 @@
     background:linear-gradient(90deg, #1e2460, #094293);
 }
 
+.b-detail{
+    position: relative;
+    background: url(../img/background-blue2.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 2000px;
+    }
+
 .searchInputWrapper{
     width:80%;
     margin:auto;

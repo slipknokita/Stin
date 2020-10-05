@@ -4,7 +4,7 @@
   "description": "Proyecto II",
   "main": "admin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "json-server --watch Games.json"
   },
   "repository": {
     "type": "git",

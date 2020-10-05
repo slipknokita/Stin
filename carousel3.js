@@ -96,9 +96,9 @@ function onClickEventPrev(e){
    }
 
     const createTerrorCards = games => {
-        
+      
        games.map((game, index) => {
-           
+        if (game.publicado === true) {
            const cardContainer = document.createElement('div'); 
           
            cardContainer.innerHTML = `
@@ -115,12 +115,15 @@ function onClickEventPrev(e){
          cardContainer.className = 'col-xs-6 col-sm-6 col-md-2 col-lg-1';
          cardsContainer.appendChild(cardContainer);
          cardContainer.addEventListener('click',redirectCards)
-       })
+        } else {
+          console.log('This is false');
+      }
+      });
      }
-
      const createFantasyCards = games => {
         
         games.map((game, index) => {
+          if (game.publicado === true) {
             const cardContainer = document.createElement('div'); 
             cardContainer.innerHTML = `
              <div class ="newCards"> 
@@ -136,12 +139,15 @@ function onClickEventPrev(e){
           cardContainer.className = 'col-xs-6 col-sm-6 col-md-2 col-lg-1';
           cardsContainer.appendChild(cardContainer);
           cardContainer.addEventListener('click',redirectCards)
-        })
+        } else {
+          console.log('This is false');
       }
-
+      });
+     }
       const createShooterCards = games => {
         
         games.map((game, index) => {
+          if (game.publicado === true) {
             const cardContainer = document.createElement('div'); 
             cardContainer.innerHTML = `
              <div class ="newCards"> 
@@ -157,15 +163,18 @@ function onClickEventPrev(e){
           cardContainer.className = 'col-xs-6 col-sm-6 col-md-2 col-lg-1';
           cardsContainer.appendChild(cardContainer);
           cardContainer.addEventListener('click',redirectCards)
-        })
+        } else {
+          console.log('This is false');
       }
+      });
+     }
 
       const createActionCards = games => {
-        
+    
         games.map((game, index) => {
+          if (game.publicado === true) {
             const cardContainer = document.createElement('div'); 
             cardContainer.innerHTML = `
-         
              <div class ="newCards"> 
                 <div class="card">
                   <img class="card-img-top"src="${game.imgSource}"
@@ -175,14 +184,15 @@ function onClickEventPrev(e){
                   </div>
                 </div>
               </div>
-              </div>
-              </div>
           `
           cardContainer.className = 'col-xs-6 col-sm-6 col-md-2 col-lg-1';
           cardsContainer.appendChild(cardContainer);
           cardContainer.addEventListener('click',redirectCards)
-        })
+        } else {
+          console.log('This is false');
       }
+      });
+     }
  
 function redirectCards(e) {
     window.location.href="JuegoX.html";

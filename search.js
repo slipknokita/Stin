@@ -54,27 +54,28 @@ function pushArray (games) {
     console.log(gamesSearch)
 }
 
+
 const displayGamesSearch = (games) => {
-    const htmlGames = games
-        .map((game) => {
-            return `
-            <div class ="newCardsResults col-xs-6 col-sm-6 col-md-2 col-lg-1 "> 
-            <div class="card">
-              <img class="card-img-top"src="${game.imgSource}"
-              <div class="card-body">
-                <div class="card-title">${game.name}</div>
-                <div class="card-text">${game.style}</div>
-              </div>
+  const htmlGames = games
+      .map((game) => {
+        if (game.publicado === true) {
+          return `
+          <div class ="newCardsResults col-xs-12 col-sm-12 col-md-6 col-lg-1 "> 
+          <div class="card">
+            <img class="card-img-top"src="${game.imgSource}"
+            <div class="card-body">
+              <div class="card-title">${game.name}</div>
+              <div class="card-text">${game.style}</div>
             </div>
           </div>
-        `;
-        })
-        .join('');
-    resultContainer.innerHTML = htmlGames;
-    resultContainer.addEventListener('click',redirectCards)
-    
+        </div>
+      `;
+      }
+    })
+      .join('');
+  resultContainer.innerHTML = htmlGames;
+  resultContainer.addEventListener('click',redirectCards)
 };
-
 
 function redirectCards(e) {
     window.location.href="JuegoX.html";
