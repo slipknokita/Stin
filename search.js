@@ -54,21 +54,30 @@ function pushArray (games) {
     console.log(gamesSearch)
 }
 
+/*<div class ="newCardsResults col-xs-12 col-sm-12 col-md-6 col-lg-1 "> 
+<div class="card">
+  <img class="card-img-top"src="${game.imgSource}"
+  <div class="card-body">
+    <div class="card-title">${game.name}</div>
+    <div class="card-text">${game.style}</div>
+  </div>
+</div>
+</div>*/
 
 const displayGamesSearch = (games) => {
   const htmlGames = games
       .map((game) => {
         if (game.publicado === true) {
           return `
-          <div class ="newCardsResults col-xs-12 col-sm-12 col-md-6 col-lg-1 "> 
-          <div class="card">
+          <div class ="ml-3 mr-3 newCardsResults col-xs-12 col-sm-12 col-md-6 col-lg-2 "> 
+          <div class="card mb-3">
             <img class="card-img-top"src="${game.imgSource}"
             <div class="card-body">
               <div class="card-title">${game.name}</div>
               <div class="card-text">${game.style}</div>
             </div>
           </div>
-        </div>
+          </div>
       `;
       }
     })

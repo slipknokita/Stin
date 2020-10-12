@@ -96,23 +96,26 @@ function onClickEventPrev(e){
    }
 
     const createTerrorCards = games => {
-      
+
        games.map((game, index) => {
         if (game.publicado === true) {
            const cardContainer = document.createElement('div'); 
-          
            cardContainer.innerHTML = `
-            <div class ="newCards "> 
-               <div class="card">
-                 <img class="card-img-top"src="${game.imgSource}"
-                 <div class="card-body">
-                   <div class="card-title">${game.name}</div>
-                   <div class="card-text">${game.style}</div>
-                 </div>
+           <div class="card mb-3 ml-3 mr-3" style="max-width: 540px;">
+           <div class="row no-gutters ">
+             <div class="col-md-4">
+               <img src="${game.imgSource}" class="card-img" alt="...">
+             </div>
+             <div class="col-md-8">
+               <div class="card-body">
+                 <h5 class="card-title">${game.name}</h5>
+                 <p class="card-text">Estilo de juego: ${game.style}</p>
                </div>
              </div>
+           </div>
+         </div>
          `
-         cardContainer.className = 'col-xs-6 col-sm-6 col-md-2 col-lg-1';
+         cardContainer.className = 'row justify-content-center col-xs-6 col-sm-6 col-md-6 col-lg-12';
          cardsContainer.appendChild(cardContainer);
          cardContainer.addEventListener('click',redirectCards)
         } else {
@@ -126,17 +129,21 @@ function onClickEventPrev(e){
           if (game.publicado === true) {
             const cardContainer = document.createElement('div'); 
             cardContainer.innerHTML = `
-             <div class ="newCards"> 
-                <div class="card">
-                  <img class="card-img-top"src="${game.imgSource}"
-                  <div class="card-body">
-                    <div class="card-title">${game.name}</div>
-                    <div class="card-text">${game.style}</div>
-                  </div>
+            <div class="card mb-3 ml-3 mr-3" style="max-width: 540px;">
+            <div class="row no-gutters ">
+              <div class="col-md-4">
+                <img src="${game.imgSource}" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">${game.name}</h5>
+                  <p class="card-text">Estilo de juego: ${game.style}</p>
                 </div>
               </div>
+            </div>
+          </div>
           `
-          cardContainer.className = 'col-xs-6 col-sm-6 col-md-2 col-lg-1';
+          cardContainer.className = 'row justify-content-center col-xs-6 col-sm-6 col-md-6 col-lg-12';
           cardsContainer.appendChild(cardContainer);
           cardContainer.addEventListener('click',redirectCards)
         } else {
@@ -150,17 +157,21 @@ function onClickEventPrev(e){
           if (game.publicado === true) {
             const cardContainer = document.createElement('div'); 
             cardContainer.innerHTML = `
-             <div class ="newCards"> 
-                <div class="card">
-                  <img class="card-img-top"src="${game.imgSource}"
-                  <div class="card-body">
-                    <div class="card-title">${game.name}</div>
-                    <div class="card-text">${game.style}</div>
-                  </div>
+            <div class="card mb-3 ml-3 mr-3" style="max-width: 540px;">
+            <div class="row no-gutters ">
+              <div class="col-md-4">
+                <img src="${game.imgSource}" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">${game.name}</h5>
+                  <p class="card-text">Estilo de juego: ${game.style}</p>
                 </div>
               </div>
+            </div>
+          </div>
           `
-          cardContainer.className = 'col-xs-6 col-sm-6 col-md-2 col-lg-1';
+          cardContainer.className = 'row justify-content-center col-xs-6 col-sm-6 col-md-6 col-lg-12';
           cardsContainer.appendChild(cardContainer);
           cardContainer.addEventListener('click',redirectCards)
         } else {
@@ -175,17 +186,21 @@ function onClickEventPrev(e){
           if (game.publicado === true) {
             const cardContainer = document.createElement('div'); 
             cardContainer.innerHTML = `
-             <div class ="newCards"> 
-                <div class="card">
-                  <img class="card-img-top"src="${game.imgSource}"
-                  <div class="card-body">
-                    <div class="card-title">${game.name}</div>
-                    <div class="card-text">${game.style}</div>
-                  </div>
+            <div class="card mb-3 ml-3 mr-3" style="max-width: 540px;">
+            <div class="row no-gutters ">
+              <div class="col-md-4">
+                <img src="${game.imgSource}" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">${game.name}</h5>
+                  <p class="card-text">Estilo de juego: ${game.style}</p>
                 </div>
               </div>
+            </div>
+          </div>
           `
-          cardContainer.className = 'col-xs-6 col-sm-6 col-md-2 col-lg-1';
+          cardContainer.className = 'row justify-content-center col-xs-6 col-sm-6 col-md-6 col-lg-12';
           cardsContainer.appendChild(cardContainer);
           cardContainer.addEventListener('click',redirectCards)
         } else {
